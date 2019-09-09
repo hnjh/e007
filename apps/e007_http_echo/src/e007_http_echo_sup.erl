@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc http_echo top level supervisor.
+%% @doc e007_http_echo top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(http_echo_sup).
+-module(e007_http_echo_sup).
 
 -behaviour(supervisor).
 

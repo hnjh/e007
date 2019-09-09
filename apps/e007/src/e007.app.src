@@ -5,7 +5,9 @@
   {mod, {e007_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    cowboy,
+    e007_http_echo
    ]},
   {env,[]},
   {modules, []},

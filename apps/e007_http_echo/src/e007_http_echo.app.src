@@ -1,8 +1,8 @@
-{application, http_echo,
+{application, e007_http_echo,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, {http_echo_app, []}},
+  {mod, {e007_http_echo_app, []}},
   {applications,
    [kernel,
     stdlib
