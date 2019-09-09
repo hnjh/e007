@@ -3,6 +3,8 @@
 %% @doc GET echo handler.
 -module(e007_http_echo_handler).
 
+-behaviour(cowboy_handler).
+
 -export([init/2]).
 
 init(Req0, Opts) ->

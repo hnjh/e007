@@ -13,7 +13,7 @@ start(_StartType, _StartArgs) ->
     Dispatch = cowboy_router:compile([
         {'_', [{"/", e007_http_echo_handler, []}]}
     ]),
-    {ok, _} = cowboy:start_clear(my_http_listener,
+    {ok, _} = cowboy:start_clear(e007_http_echo_listener,
         [{port, 8080}],
         #{env => #{dispatch => Dispatch}}
     ),
